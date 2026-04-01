@@ -1,0 +1,41 @@
+CustomerID,Tenure,Age,Gender,Location,ContractType,PaymentMethod,MonthlyCharges,TotalCharges,AvgMonthlyUsageGB,NumSupportCalls,NumAppLogins,TimeSinceLastLogin_Days,NumLatePayments,FailedPayments,AutoPayEnabled,NumComplaints,AvgTicketResolution_Hours,SatisfactionScore,Churn
+C1001,12,35,Male,Urban,Month-to-month,Electronic check,79.99,959.88,15.5,3,45,2,1,0,No,1,24,3.2,0
+C1002,45,42,Female,Suburban,One year,Credit card,55.25,2486.25,8.2,0,120,0,0,0,Yes,0,0,4.8,0
+C1003,3,28,Male,Urban,Month-to-month,Mailed check,89.99,269.97,25.7,5,12,7,2,1,No,2,48,2.1,1
+C1004,24,51,Female,Rural,Two years,Bank transfer,45.50,1092.00,5.1,1,60,1,0,0,Yes,0,0,4.5,0
+C1005,8,33,Female,Urban,Month-to-month,Electronic check,99.95,799.60,42.3,7,8,14,3,2,No,3,72,1.8,1
+C1006,36,47,Male,Suburban,One year,Credit card,69.99,2519.64,12.8,2,85,0,0,0,Yes,1,12,3.9,0
+C1007,15,29,Male,Urban,Month-to-month,Electronic check,82.50,1237.50,18.6,4,25,5,1,0,No,1,36,2.8,1
+C1008,52,58,Female,Rural,Two years,Bank transfer,39.95,2077.40,3.2,0,40,0,0,0,Yes,0,0,4.9,0
+C1009,6,31,Female,Urban,Month-to-month,Mailed check,74.99,449.94,22.4,6,10,10,2,1,No,2,60,2.0,1
+C1010,28,44,Male,Suburban,One year,Credit card,64.99,1819.72,9.7,1,95,1,0,0,Yes,0,0,4.2,0
+C1011,2,26,Male,Urban,Month-to-month,Electronic check,94.50,189.00,35.8,8,5,21,3,2,No,4,96,1.5,1
+C1012,41,53,Female,Rural,Two years,Bank transfer,49.95,2047.95,6.5,0,70,0,0,0,Yes,0,0,4.7,0
+C1013,19,37,Female,Urban,Month-to-month,Credit card,77.99,1481.81,14.2,2,35,3,1,0,No,1,18,3.5,0
+C1014,9,41,Male,Suburban,One year,Electronic check,59.99,539.91,11.3,3,50,4,1,0,Yes,1,24,3.1,0
+C1015,4,24,Female,Urban,Month-to-month,Mailed check,87.50,350.00,28.9,7,6,18,3,3,No,3,84,1.2,1
+C1016,32,49,Male,Rural,Two years,Bank transfer,42.75,1368.00,4.8,0,55,0,0,0,Yes,0,0,4.6,0
+C1017,14,38,Female,Suburban,One year,Credit card,67.99,951.86,10.5,1,75,2,0,0,Yes,0,0,4.0,0
+C1018,7,30,Male,Urban,Month-to-month,Electronic check,92.99,650.93,31.2,6,15,12,2,1,No,2,54,1.9,1
+C1019,23,45,Female,Rural,Two years,Bank transfer,44.50,1023.50,4.2,0,65,1,0,0,Yes,0,0,4.4,0
+C1020,11,36,Male,Suburban,One year,Mailed check,62.50,687.50,8.9,2,40,3,0,0,Yes,1,15,3.8,0
+C1021,5,27,Female,Urban,Month-to-month,Electronic check,84.99,424.95,26.3,5,12,8,2,1,No,2,42,2.3,1
+C1022,38,54,Male,Rural,Two years,Bank transfer,41.25,1567.50,3.8,0,80,0,0,0,Yes,0,0,4.8,0
+C1023,17,43,Female,Urban,One year,Credit card,71.99,1223.83,13.5,1,60,2,0,0,Yes,0,0,4.1,0
+C1024,10,32,Male,Suburban,Month-to-month,Electronic check,78.50,785.00,16.7,3,30,5,1,0,No,1,30,3.3,0
+C1025,1,22,Female,Urban,Month-to-month,Mailed check,96.99,96.99,45.2,9,3,25,4,3,No,5,108,1.1,1
+C1026,29,46,Male,Rural,Two years,Bank transfer,43.95,1274.55,5.2,0,85,0,0,0,Yes,0,0,4.5,0
+C1027,16,39,Female,Urban,One year,Credit card,69.50,1112.00,11.9,2,50,2,0,0,Yes,0,0,4.2,0
+C1028,13,34,Male,Suburban,Month-to-month,Electronic check,81.99,1065.87,19.8,4,22,6,1,1,No,2,48,2.7,1
+C1029,42,55,Female,Rural,Two years,Bank transfer,38.99,1637.58,2.9,0,75,0,0,0,Yes,0,0,4.9,0
+C1030,21,48,Male,Urban,One year,Mailed check,66.99,1406.79,10.2,1,70,1,0,0,Yes,1,21,3.7,0
+C1031,18,40,Female,Suburban,Month-to-month,Electronic check,76.50,1377.00,15.8,3,40,4,1,0,No,1,33,3.4,0
+C1032,33,50,Male,Rural,Two years,Bank transfer,44.99,1484.67,4.5,0,90,0,0,0,Yes,0,0,4.6,0
+C1033,22,44,Female,Urban,One year,Credit card,68.99,1517.78,12.1,2,65,1,0,0,Yes,0,0,4.3,0
+C1034,8,29,Male,Suburban,Month-to-month,Electronic check,88.99,711.92,27.8,5,18,9,2,1,No,2,45,2.2,1
+C1035,47,56,Female,Rural,Two years,Bank transfer,37.95,1783.65,2.5,0,95,0,0,0,Yes,0,0,5.0,0
+C1036,25,41,Male,Urban,One year,Mailed check,63.99,1599.75,9.3,1,55,2,0,0,Yes,0,0,3.9,0
+C1037,12,33,Female,Suburban,Month-to-month,Electronic check,83.50,1002.00,20.4,4,28,5,1,0,No,2,39,2.9,1
+C1038,39,52,Male,Rural,Two years,Bank transfer,42.50,1657.50,4.1,0,88,0,0,0,Yes,0,0,4.7,0
+C1039,20,42,Female,Urban,One year,Credit card,70.99,1419.80,13.2,1,72,1,0,0,Yes,0,0,4.1,0
+C1040,14,37,Male,Suburban,Month-to-month,Electronic check,79.99,1119.86,17.5,3,32,4,1,0,No,1,27,3.2,0
