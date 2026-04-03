@@ -2,8 +2,7 @@ from flask import Flask, render_template, request
 import pandas as pd
 from sklearn.preprocessing import LabelEncoder
 from sklearn.ensemble import RandomForestClassifier
-import matplotlib.pyplot as plt
-import seaborn as sns
+
 
 app = Flask(__name__)
 # Feature Importance
@@ -66,14 +65,6 @@ def home():
             prediction_text = "✅ Customer is NOT likely to churn"
 
     return render_template("index.html", prediction_text=prediction_text)
-importances = model.feature_importances_
-features = X.columns
-plt.figure(figsize=(10,5))
-plt.barh(features, importances)
-plt.xlabel("Importance")
-plt.ylabel("Features")
-plt.title("Feature Importance - Customer Churn")
-plt.show()
 if __name__ == "__main__":
     import os
 
