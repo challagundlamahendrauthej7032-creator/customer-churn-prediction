@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Customer Churn Prediction</title>
+    <style>
+        body {
+            font-family: Arial;
+            background: linear-gradient(to right, #4e73df, #1cc88a);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            width: 500px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+            overflow-y: auto;
+            max-height: 90vh;
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        input, select {
+            width: 100%;
+            padding: 8px;
+            margin: 5px 0 10px 0;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+
+        button {
+            width: 100%;
+            padding: 10px;
+            background: #4e73df;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #2e59d9;
+        }
+
+        .result {
+            margin-top: 15px;
+            font-weight: bold;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h2>Customer Churn Prediction</h2>
+
+    <form method="POST">
+
+        <input name="Tenure" placeholder="Tenure (months)" required>
+        <input name="Age" placeholder="Age" required>
+
+        <select name="Gender">
+            <option>Male</option>
+            <option>Female</option>
+        </select>
+
+        <select name="Location">
+            <option>Urban</option>
+            <option>Suburban</option>
+            <option>Rural</option>
+        </select>
+
+        <select name="ContractType">
+            <option>Month-to-month</option>
+            <option>One year</option>
+            <option>Two years</option>
+        </select>
+
+        <select name="PaymentMethod">
+            <option>Electronic check</option>
+            <option>Credit card</option>
+            <option>Mailed check</option>
+            <option>Bank transfer</option>
+        </select>
+
+        <input name="MonthlyCharges" placeholder="Monthly Charges" required>
+        <input name="TotalCharges" placeholder="Total Charges" required>
+        <input name="AvgMonthlyUsageGB" placeholder="Avg Monthly Usage (GB)" required>
+        <input name="NumSupportCalls" placeholder="Support Calls" required>
+        <input name="NumAppLogins" placeholder="App Logins" required>
+        <input name="TimeSinceLastLogin_Days" placeholder="Days Since Last Login" required>
+        <input name="NumLatePayments" placeholder="Late Payments" required>
+        <input name="FailedPayments" placeholder="Failed Payments" required>
+
+        <select name="AutoPayEnabled">
+            <option>Yes</option>
+            <option>No</option>
+        </select>
+
+        <input name="NumComplaints" placeholder="Complaints" required>
+        <input name="AvgTicketResolution_Hours" placeholder="Avg Ticket Resolution Hours" required>
+        <input name="SatisfactionScore" placeholder="Satisfaction Score (1-5)" required>
+
+        <button type="submit">Predict</button>
+
+    </form>
+
+    <div class="result">
+        {{ prediction_text }}
+    </div>
+    <img src="{{ url_for('static', filename='feature_importance.png') }}" width="600">
+
+</div>
+
+</body>
+</html>
